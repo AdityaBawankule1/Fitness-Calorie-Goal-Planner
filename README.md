@@ -22,7 +22,7 @@
 ## Demo
 
 ![Fitness Calorie Goal Planner](./Screenshot%202026-01-03%20at%2013.28.44.png)
-(./Screenshot%202026-01-03%20at%2013.33.45.png)
+![Fitness Calorie Goal Result](./Screenshot%202026-01-03%20at%2013.33.45.png)
 ---
 
 ## Features
