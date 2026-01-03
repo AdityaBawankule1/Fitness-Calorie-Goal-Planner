@@ -49,3 +49,38 @@
 2. **Calculation Logic**  
    The app uses the **Mifflin-St Jeor formula** to calculate BMR:  
 
+Maintenance calories = BMR × activity factor:  
+- Sedentary: 1.2  
+- Lightly Active: 1.375  
+- Moderately Active: 1.55  
+- Very Active: 1.725  
+
+Daily calories are adjusted based on fitness goal:  
+- Fat Loss: −500 kcal/day  
+- Muscle Gain: +300 kcal/day  
+- Maintain: 0 kcal/day  
+
+Estimated time to reach target weight is calculated based on weekly weight change.
+
+3. **Show Report**  
+Users click the **“Show Report” button** to generate a visually appealing results card displaying all relevant numbers.
+
+---
+
+## Tech Stack
+
+- **React** – Frontend library  
+- **Tailwind CSS** – Styling framework  
+- **Vite** – Fast development and build tool  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/fitness-calorie-planner.git
+cd fitness-calorie-planner
+
+
