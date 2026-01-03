@@ -115,6 +115,8 @@ npm run dev
 
 ## Project Structure
 
+```text
+
 src/
 │
 ├── components/
@@ -130,6 +132,8 @@ src/
 ├── App.jsx                 # Main app controller
 ├── main.jsx                # React entry point
 └── index.css               # Global styling
+
+```
 
 ## Future Enhancements
 
