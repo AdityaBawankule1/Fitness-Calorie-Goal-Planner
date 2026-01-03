@@ -21,8 +21,7 @@
 
 ## Demo
 
-*Optional: Include a screenshot or GIF of the app here.*
-
+![Fitness Calorie Goal Planner](./images/app-preview.png)
 ---
 
 ## Features
@@ -80,7 +79,72 @@ Users click the **“Show Report” button** to generate a visually appealing re
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fitness-calorie-planner.git
-cd fitness-calorie-planner
+git clone [https://github.com/yourusername/fitness-calorie-planner.git](https://github.com/AdityaBawankule1/Fitness-Calorie-Goal-Planner
+cd calorie-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Usage
+
+### Fill in the form with your personal details:
+- Age
+- Height (cm)
+- Weight (kg)
+- Gender
+- Activity Level
+- Fitness Goal
+- Target Weight Change (kg)
+- Click Show Report to generate your personalized calorie report.
+- View results:
+- BMR
+- Maintenance Calories
+- Daily Calories to Follow
+- Estimated Weeks to Reach Goal
+
+## Project Structure
+
+src/
+│
+├── components/
+│   ├── Header.jsx          # Gradient header
+│   ├── FormInput.jsx       # Reusable input component
+│   ├── SelectInput.jsx     # Reusable dropdown component
+│   ├── UserForm.jsx        # Form handling user input
+│   └── ResultCard.jsx      # Display calculated results
+│
+├── utils/
+│   └── calorieCalculator.js # Calculation logic
+│
+├── App.jsx                 # Main app controller
+├── main.jsx                # React entry point
+└── index.css               # Global styling
+
+## Future Enhancements
+
+- Macro nutrient breakdown (protein, carbs, fats)
+- Dark mode toggle
+- Weekly progress tracker
+- Workout suggestions based on gym level
+- Animated report display
+- User authentication and profile storage
+
+## License
+
+- This project is licensed under the MIT License.
+
+## Author
+
+Aditya Bawankule
 
 
