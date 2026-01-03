@@ -1,16 +1,51 @@
-# React + Vite
+# Fitness Calorie Goal Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fitness Calorie Goal Planner** is a modern, responsive React application that helps users calculate their daily calorie needs and estimate the time required to achieve their fitness goals. Users can input personal data such as age, height, weight, activity level, and fitness goal, and receive a **customized calorie report** for fat loss, muscle gain, or maintenance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [Demo](#demo)  
+- [Features](#features)  
+- [How It Works](#how-it-works)  
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Future Enhancements](#future-enhancements)  
+- [License](#license)  
+- [Author](#author)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Optional: Include a screenshot or GIF of the app here.*
+
+---
+
+## Features
+
+- 🧍‍♂️ Input personal details: age, height, weight, gender  
+- 🏃‍♀️ Select daily activity level: Sedentary, Lightly Active, Moderately Active, Very Active  
+- 🎯 Set fitness goal: Fat Loss, Muscle Gain, or Maintain  
+- 📊 View calculated results:
+  - BMR (Basal Metabolic Rate)  
+  - Maintenance Calories  
+  - Recommended Daily Calories  
+  - Estimated time to reach goal  
+- 🔹 Modern teal-to-blue gradient UI theme  
+- 💻 Responsive and mobile-friendly design  
+- ⚡ Controlled report generation with **“Show Report” button**  
+
+---
+
+## How It Works
+
+1. **User Input**  
+   Users fill out a form with personal data: age, height, weight, gender, activity level, and target weight change.  
+
+2. **Calculation Logic**  
+   The app uses the **Mifflin-St Jeor formula** to calculate BMR:  
+
