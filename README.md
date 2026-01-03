@@ -131,7 +131,7 @@ src/
 │
 ├── App.jsx                 # Main app controller
 ├── main.jsx                # React entry point
-└── index.css               # Global styling
+└── App.css                 # Global styling
 
 ```
 
