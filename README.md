@@ -21,7 +21,7 @@
 
 ## Demo
 
-![Fitness Calorie Goal Planner](./Screenshot%202026-01-03%20at%2013.28.44.png)https://github.com/AdityaBawankule1/Fitness-Calorie-Goal-Planner/blob/main/Screenshot%202026-01-03%20at%2013.28.44.png
+![Fitness Calorie Goal Planner](./Screenshot%202026-01-03%20at%2013.28.44.png)
 ---
 
 ## Features
