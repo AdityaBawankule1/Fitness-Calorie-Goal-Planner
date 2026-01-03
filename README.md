@@ -80,7 +80,7 @@ Users click the **“Show Report” button** to generate a visually appealing re
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/yourusername/fitness-calorie-planner.git](https://github.com/AdityaBawankule1/Fitness-Calorie-Goal-Planner
+git clone [https://github.com/AdityaBawankule1/Fitness-Calorie-Goal-Planner]
 cd calorie-app
 ```
 
